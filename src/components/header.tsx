@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 export const Header = () => {
   return (
-    <div className="p-[30px] bg-slate-100  font-bold text-[20px] container">
-      <div className="flex gap-5">
+    <div className="p-[20px]  font-bold text-[20px] container items-center">
+      <div className="flex gap-[30px] justify-between items-center">
         <Image
           src="/next.svg"
           alt=" Logo"
@@ -12,7 +12,7 @@ export const Header = () => {
           height={45}
           priority
         />
-        <button className="p-4 border-2 border-black-50 rounded-lg flex items-center gap-2">
+        <button className="w-[180px] h-[48px] p-8 border-2 border-black-50 rounded-lg flex items-center gap-2">
           <Image
             src="/ruknlar.svg"
             alt=" Logo"
@@ -38,15 +38,16 @@ export const Header = () => {
           priority
            />  */}
         </div>
-        <button>
+        <button className="w-[200px] h-[100px]">
           <Image
            src="/enter.svg"
            alt=" Logo"
-           className="p-5 w-[151] h-[48]"
+           className=" w-[191] h-[98]"
            width={151}
            height={49}
            priority
           />
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
         </button>
       </div>
     </div>

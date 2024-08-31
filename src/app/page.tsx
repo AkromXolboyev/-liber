@@ -1,21 +1,14 @@
 import Image from "next/image";
+import Link from "next/link";
 export default function Home() {
   return (
     <div>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque
-      itaque odit dolore consequuntur! Amet magni, nulla quo praesentium maxime
-      suscipit. At dicta consequatur accusamus sequi voluptatem, expedita
-      deserunt amet quam?
-      <div>
-        <Image
-          src="/next.svg"
-          alt="Vercel Logo"
-          className="dark:invert"
-          width={100}
-          height={24}
-          priority
-        />
-      </div>
+        <div className='w-[500px] bg-cyan-300 justify-between p-5 '>
+            <Link href={"/about"}>about</Link>
+            <Link href={"/blog"}>blog</Link>
+            <Link href={"/news"}>news</Link>
+        </div>
+       
     </div>
   );
 }
